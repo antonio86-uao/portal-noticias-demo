@@ -119,7 +119,7 @@ def create_confidence_chart(predictions):
                 colorbar=dict(title="Confianza")
             ),
             text=[f'{x:.1%}' for x in df['Confianza']],
-            textposition='middle right'
+            textposition='auto'
         )
     ])
     
@@ -333,3 +333,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
