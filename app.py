@@ -1,6 +1,7 @@
 # =============================================================================
 # PORTAL INTELIGENTE DE CLASIFICACIÓN DE NOTICIAS
 # Aplicación Streamlit con DistilBERT desde Hugging Face
+# Versión: 2.0.0 - Modelo Real Integrado
 # =============================================================================
 
 import streamlit as st
@@ -366,15 +367,16 @@ def main():
     # Enlace al modelo
     st.info("🔗 **Modelo disponible en:** https://huggingface.co/gaanvalo/distilbert-finetuned-noticias")
     
-    # Footer
+    # Footer con versión
     st.markdown("---")
     st.markdown("""
-    **🎓 Taller Final - Módulo 2:** Procesamiento de Datos Secuenciales con Deep Learning  
-    **👨‍🎓 Estudiante:** Gabriel Antonio Vallejo Loaiza - Código: 2250145  
-    **🏫 Universidad:** Autónoma de Occidente  
-    **📅 Fecha:** Agosto 2025  
+    **Taller Final - Módulo 2:** Procesamiento de Datos Secuenciales con Deep Learning  
+    **Estudiante:** Gabriel Antonio Vallejo Loaiza - Código: 2250145  
+    **Universidad:** Autónoma de Occidente  
+    **Fecha:** Agosto 2025  
     
-    **🚀 Estado:** Modelo DistilBERT real activo desde Hugging Face Hub
+    **Estado:** Modelo DistilBERT real activo desde Hugging Face Hub  
+    **Versión:** 2.0.0 - Modelo Real Integrado
     """)
 
 if __name__ == "__main__":
